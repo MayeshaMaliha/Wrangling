@@ -1,0 +1,20 @@
+1. Many datasets are stored in spreadsheets. A spreadsheet is essentially a file version of a data frame with rows and columns.
+2. Spreadsheets have rows separated by returns and columns separated by a delimiter. The most common delimiters are comma, semicolon, white space and tab.
+3. Many spreadsheets are raw text files and can be read with any basic text editor. However, some formats are proprietary and cannot be read with a text editor, such as Microsoft Excel files (.xls).
+4. Most import functions assume that the first row of a spreadsheet file is a header with column names. To know if the file has a header, it helps to look at the file with a text editor before trying to import it.
+
+5. The working directory is where R looks for files and saves files by default.
+6. See your working directory with getwd(). Change your working directory with setwd().
+7. We suggest you create a directory for each project and keep your raw data inside that directory.
+8. Use the file.path() function to generate a full path from a relative path and a file name. Use file.path() instead of paste() because file.path() is aware of your operating system and will use the correct slashes to navigate your machine.
+9. The file.copy() function copies a file to a new path.
+10. readr is the tidyverse library that includes functions for reading data stored in text file spreadsheets into R. Functions in the package include read_csv(), read_tsv(), read_delim() and more. These differ by the delimiter they use to split columns.
+10. The readxl package provides functions to read Microsoft Excel formatted files.
+11. The excel_sheets() function gives the names of the sheets in the Excel file. These names are passed to the sheet argument for the readxl functions read_excel(), read_xls() and read_xlsx().
+12. The read_lines() function shows the first few lines of a file in R.
+13. R-base import functions (read.csv(), read.table(), read.delim()) generate data frames rather than tibbles.
+14. Note that as of R 4.0, it is no longer necessary to use the argument stringsAsFactors=FALSE to prevent characters from being converted into factors.
+15. The read_csv() function and other import functions can read a URL directly.
+16. If you want to have a local copy of the file, you can use download.file().
+17. tempdir() creates a directory with a name that is very unlikely not to be unique.
+18. tempfile() creates a character string that is likely to be a unique filename.
