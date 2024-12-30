@@ -1,0 +1,3 @@
+Unlike the join functions, the binding functions do not try to match by a variable, but rather just combine datasets.
+bind_cols() binds two objects by making them columns in a tibble. The R-base function cbind() binds columns but makes a data frame or matrix instead.
+The bind_rows() function is similar but binds rows instead of columns. The R-base function rbind() binds rows but makes a data frame or matrix instead.
