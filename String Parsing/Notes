@@ -1,0 +1,9 @@
+The most common tasks in string processing include:
+1. extracting numbers from strings
+2. removing unwanted characters from text
+3. finding and replacing characters
+4. extracting specific parts of strings
+5. converting free form text to more uniform formats
+6. splitting strings into multiple values
+
+The stringr package in the tidyverse contains string processing functions that follow a similar naming format (str_functionname) and are compatible with the pipe.
