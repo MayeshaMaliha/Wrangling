@@ -1,0 +1,5 @@
+By default, the set operators in R-base work on vectors. If tidyverse/dplyr are loaded, they also work on data frames.
+You can take intersections of vectors using intersect(). This returns the elements common to both sets.
+You can take the union of vectors using union(). This returns the elements that are in either set.
+The set difference between a first and second argument can be obtained with setdiff(). Note that this function is not symmetric.
+The function set_equal() tells us if two sets are the same, regardless of the order of elements.
