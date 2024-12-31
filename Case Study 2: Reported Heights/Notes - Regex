@@ -1,0 +1,7 @@
+1. A regular expression (regex) is a way to describe a specific pattern of characters of text. A set of rules has been designed to do this specifically and efficiently.
+2. stringr functions can take a regex as a pattern.
+3. str_detect() indicates whether a pattern is present in a string.
+4. The main difference between a regex and a regular string is that a regex can include special characters.
+5. The | symbol inside a regex means "or".
+6. Use '\\d' to represent digits. The backlash is used to distinguish it from the character 'd'. In R, you must use two backslashes for digits in regular expressions; in some other languages, you will only use one backslash for regex special characters.
+7. str_view() highlights the first occurrence of a pattern, and the str_view_all() function highlights all occurrences of the pattern.
