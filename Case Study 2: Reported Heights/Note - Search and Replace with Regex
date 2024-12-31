@@ -1,0 +1,4 @@
+str_replace() replaces the first instance of the detected pattern with a specified string.
+Spaces are characters and R does not ignore them. Spaces are specified by the special character \\s.
+Additional quantifiers include *, + and ?. * means 0 or more instances of the previous character. ? means 0 or 1 instances. + means 1 or more instances.
+Before removing characters from strings with functions like str_replace() and str_replace_all(), consider whether that replacement would have unintended effects.
