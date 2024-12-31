@@ -1,0 +1,4 @@
+1. Use the str_detect() function to determine whether a string contains a certain pattern.
+2. Use the str_replace_all() function to replace all instances of one pattern with another pattern. To remove a pattern, replace with the empty string ("").
+3. The parse_number() function removes punctuation from strings and converts them to numeric.
+mutate_at() performs the same transformation on the specified column numbers.
