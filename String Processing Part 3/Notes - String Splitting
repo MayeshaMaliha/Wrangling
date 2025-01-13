@@ -1,0 +1,5 @@
+Key Points
+
+The function str_split() splits a string into a character vector on a delimiter (such as a comma, space or underscore). By default, str_split() generates a list with one element for each original string. Use the function argument simplify=TRUE to have str_split() return a matrix instead.
+The map() function from the purrr package applies the same function to each element of a list. To extract the ith entry of each element x, use map(x, i).
+map() always returns a list. Use map_chr() to return a character vector and map_int() to return an integer.
