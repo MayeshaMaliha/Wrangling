@@ -1,0 +1,8 @@
+Key points
+
+Dates are a separate data type in R.The tidyverse includes functionality for dealing with dates through the lubridate package. 
+Extract the year, month and day from a date object with the year(), month() and day() functions.
+Parsers convert strings into dates with the standard YYYY-MM-DD format (ISO 8601 format). Use the parser with the name corresponding to the string format of year, month and day (ymd(), ydm(), myd(), mdy(), dmy(), dym()).
+Get the current time with the Sys.time() function. Use the now() function instead to specify a time zone.
+You can extract values from time objects with the hour(), minute() and second() functions.
+Parsers convert strings into times (for example, hms()). Parsers can also create combined date-time objects (for example, mdy_hms()).
